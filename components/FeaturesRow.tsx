@@ -34,7 +34,7 @@ export default function FeaturesRow() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: idx * 0.12 }}
-            whileHover={{ y: -4, shadow: "0 10px 25px -5px rgba(0,0,0,0.05)" }}
+            whileHover={{ y: -4, boxShadow: "0 10px 25px -5px rgba(0,0,0,0.05)" }}
             className="flex items-center gap-4 p-5 bg-white border border-zinc-100 rounded-2xl shadow-sm hover:border-[#74C02A]/30 hover:shadow-md transition-all duration-300 cursor-pointer"
           >
             {/* Icon Wrapper */}
